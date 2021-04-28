@@ -10,6 +10,6 @@ function guess(clicked_id){
     else{
          document.getElementById("text").innerHTML = message2 + emoji;
          document.getElementById(clicked_id).disabled = true;
-         window.setTimeout(function(){location.reload()},2000);
+         window.setTimeout(function(){location.reload()},1000);
         }
     }
