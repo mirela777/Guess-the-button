@@ -3,7 +3,7 @@ function guess(clicked_id){
     var message1 = "You win";
     var message2 = "You lose";
     var emoji = String.fromCodePoint(128546);
-    var emoji2 =String.fromCodePoint(128516);
+    var emoji2 = String.fromCodePoint(128516);
     if(clicked_id == winner){
         document.getElementById("text").innerHTML = message1 + emoji2; 
          }
